@@ -1,0 +1,11 @@
+{
+  "name": "oxlint-anti-slop",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test --experimental-strip-types --disable-warning=ExperimentalWarning src/slop.test.ts"
+  }
+}
